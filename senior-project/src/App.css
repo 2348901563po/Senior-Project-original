@@ -1,11 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+}
+
+form{
+  width: 50vw;
+  margin: auto;
+  background-color: aqua;
+}
+
+#username{
+  margin: auto;
+}
+
+#password{ margin:auto;
+}
+h1{
+  text-align: center;
+  
+}
+div{
+  width:100%;
+}
+
+body{
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 100vh;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+button{
+  width: 100px;
+  height: 50px;
+  margin-top: 5%;
+}
+/*
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -24,6 +63,7 @@
   color: white;
 }
 
+
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +76,4 @@
     transform: rotate(360deg);
   }
 }
+*/
