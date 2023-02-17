@@ -6,7 +6,9 @@ const Login = () =>{
       <form>
         <Username />
         <Password />
-        <button>Submit</button>
+        <button>Submit
+            <link to='/Adminhome'></link>
+        </button>
       </form>
   )};
   
@@ -26,3 +28,5 @@ const Login = () =>{
       </div>
     )
   }
+
+  export default Login;

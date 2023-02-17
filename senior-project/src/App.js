@@ -11,6 +11,21 @@ import Adminhome from '/Components/Adminhome';
 import AdminSettings from '/Components/AdminSettings';
 import Login from './Components/Login';
 
-
+const App = ()=>{
+  return(
+    <>
+      <router>
+        <switch>
+          <route exact path='/' component={Login}></route>
+          <route path='./components/' component={AdminSearch}></route>
+          <route path='./components/' component={BasicForm}></route>
+          <route path='./components/' component={Adminhome}></route>
+          <route path='./components/' component={AdminSettings}></route>
+          <redirect to='/' />
+        </switch>
+      </router>
+    </>
+  )
+};
 
 export default App;
