@@ -16,11 +16,11 @@ const App = ()=>{
     <>
       <router>
         <switch>
-          <route exact path='/' component={Login}></route>
-          <route path='./components/' component={AdminSearch}></route>
-          <route path='./components/' component={BasicForm}></route>
-          <route path='./components/' component={Adminhome}></route>
-          <route path='./components/' component={AdminSettings}></route>
+          <route exact path='/' component={Login} />
+          <route path='/components/' component={AdminSearch} />
+          <route path='/components/' component={BasicForm} />
+          <route path='/components/' component={Adminhome} />
+          <route path='/components/' component={AdminSettings} />
           <redirect to='/' />
         </switch>
       </router>
